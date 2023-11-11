@@ -1,0 +1,77 @@
+/* Add these styles to your CSS file or style tag */
+
+/* Container for the entire post list */
+.post-list-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for each post item */
+  .post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Style for post title */
+  .post-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Style for the buttons (Edit and Delete) */
+  .post-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Style for the pagination */
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for pagination item */
+  .pagination-item {
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Active pagination item */
+  .pagination-item.active {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  /* Style for the delete modal */
+  .delete-modal-content {
+    text-align: center;
+  }
+  
+  /* Style for the delete button in the modal */
+  .delete-modal-content button {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delete-modal-content button:hover {
+    background-color: #ff0000;
+  }
+  
